@@ -3,7 +3,8 @@
 <head>
 	<title>Random Quote Generator</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Acme|Concert+One|Fredoka+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Acme|Concert+One" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
@@ -12,20 +13,20 @@
 
 
 
-	<div id="title">
+	<div id="title" class="container">
 		<h1>An Inspirational Quote to make your day!</h1>
 	</div>
 
-	<div>
+	<div id="main" class="container">
 		<div id="quote">
 			Quote
 		</div>
 		<div id="author">
 			The Author
 		</div>
-		<div>
-			<button>New Quote!</button>
-		</div>
+	</div>
+	<div>
+		<button class="btn btn-info btn-lg btn-block">New Quote!</button>
 	</div>
 
 
@@ -35,6 +36,7 @@
 			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
 			  crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="transition.js"></script>
 	<script type="text/javascript" src="script.js"></script>
 
 </body>
