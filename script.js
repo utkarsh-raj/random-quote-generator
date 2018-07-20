@@ -31,6 +31,6 @@ var quotes = [
 
 button.addEventListener("click", function() {
 	newQuote = quotes[Math.floor(Math.random() * quotes.length)];
-	quote.innerHTML = newQuote["quote"];
-	author.innerHTML = newQuote["author"];
+	quote.innerHTML = '"' + newQuote["quote"] + '"';
+	author.innerHTML = "- by " + newQuote["author"];
 });
