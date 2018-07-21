@@ -28,6 +28,13 @@ var quotes = [
 			quote: "Hello this is a quote by Jai!"
 		},
 	
+	
+	
+	
+	
+	
+	
+	
 		{
 			author: "Anonymous",
 			quote: "Coz in the end we are all just dreamers in an endless universe."
