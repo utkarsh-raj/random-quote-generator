@@ -50,7 +50,10 @@ var quotes = [
   },
   {author: "Jai Dewani",
 	 	quote:"Ne to github"
-		}
+		},
+	
+	{author:"Halsey",
+		quote:"You ripped at every edge but you are still a masterpiece."}
 ]
 
 button.addEventListener("click", function() {
