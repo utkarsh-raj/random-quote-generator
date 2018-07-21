@@ -41,13 +41,25 @@ var quotes = [
   	  {   author: "me",
 	      quote: "new things"
 	  },
+	
+	{ 
+	
+	author: "Aristotle",
+	quote: "The more we try to know, we come to know how much we don't know."
+	
+	},
   {
     author: "Anonymous",
 			quote: "Coz in the end we are all just dreamers in an endless universe."
   },
   {author: "Jai Dewani",
 	 	quote:"Ne to github"
-  }]		
+  },
+	
+	{author:"Halsey",
+		quote:"You ripped at every edge but you are still a masterpiece."}
+]
+
 button.addEventListener("click", function() {
 	newQuote = quotes[Math.floor(Math.random() * quotes.length)];
 	quote.innerHTML = '"' + newQuote["quote"] + '"';
