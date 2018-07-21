@@ -37,7 +37,10 @@ var quotes = [
   {
     author: "Anonymous",
 			quote: "Coz in the end we are all just dreamers in an endless universe."
-  }
+  },
+  {author: "Jai Dewani",
+	 	quote:"Ne to github"
+		}
 ]
 
 button.addEventListener("click", function() {
