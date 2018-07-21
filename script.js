@@ -26,7 +26,12 @@ var quotes = [
 		{
 			author: "Jai Dewani",
 			quote: "Hello this is a quote by Jai!"
+		},
+		{
+			author: "Nelson Mandela",
+			quote: "It always seems impossible until it's done."
 		}
+	
 	]
 
 button.addEventListener("click", function() {
