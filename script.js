@@ -23,16 +23,13 @@ var quotes = [
 		{
 			author: "Jai Dewani",
 			quote: "Hello this is a quote by Jai!"
-		},
-
-		
-  
-  
-  
-  
-  
-  
+    },
     {
+                        author: "Frank Zappa",
+			quote: "So many books, so little time."
+    }
+
+{
       author: "Nelson Mandela",
 			quote: "It always seems impossible until it's done."
     },
@@ -57,7 +54,7 @@ var quotes = [
   },
   {author: "Jai Dewani",
 	 	quote:"Ne to github"
-		},
+  },
 	
 	{author:"Halsey",
 		quote:"You ripped at every edge but you are still a masterpiece."}
