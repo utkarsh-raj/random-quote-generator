@@ -27,7 +27,7 @@ var quotes = [
     {
                         author: "Frank Zappa",
 			quote: "So many books, so little time."
-    }
+    },
 
 {
       author: "Nelson Mandela",
