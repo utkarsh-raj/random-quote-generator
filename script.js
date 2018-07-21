@@ -30,62 +30,8 @@ var quotes = [
     {
                         author: "Frank Zappa",
 			quote: "So many books, so little time."
-    },
-   {
-                        author: "A.P.j Abdul kalam",
-			quote: "Dream is something which doesnt let you sleep."
-    },
-  {
-                        author: "A.P.j Abdul kalam",
-			quote: "Dream is something which doesnt let you sleep."
-    },
-
-
-
-
-
-
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  {
-			author: "Avani Gupta",
-			quote: "whatever you do just do it good!"
-		},
-		{
-			author: "Avani Gupta",
-			quote: "Dream is something which doesnt let you sleep!"
-		},
-	{
-			author: "Avani Gupta",
-			quote: "Arise,Awake and stop not untill you reach your goal!"
-		},
-	
-
-
+    }
+	]
 button.addEventListener("click", function() {
 	newQuote = quotes[Math.floor(Math.random() * quotes.length)];
 	quote.innerHTML = '"' + newQuote["quote"] + '"';
