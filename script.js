@@ -11,10 +11,7 @@ quote.innerHTML = "Hello from div!";
 
 
 var quotes = [
-		{
-			author: "Jai Dewani",
-			quote: "Hello this is a quote!"
-		},
+	
 		{
 			author: "Jai Dewani",
 			quote: "Hello this is another quote!"
