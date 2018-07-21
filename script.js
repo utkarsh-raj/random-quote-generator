@@ -44,6 +44,13 @@ var quotes = [
   	  {   author: "me",
 	      quote: "new things"
 	  },
+	
+	{ 
+	
+	author: "Aristotle",
+	quote: "The more we try to know, we come to know how much we don't know."
+	
+	},
   {
     author: "Anonymous",
 			quote: "Coz in the end we are all just dreamers in an endless universe."
