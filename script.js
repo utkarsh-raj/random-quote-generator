@@ -28,10 +28,17 @@ var quotes = [
 			quote: "Hello this is a quote by Jai!"
     },
     {
-      author: "Frank Zappa",
+                        author: "Frank Zappa",
 			quote: "So many books, so little time."
     },
-  
+   {
+                        author: "A.P.j Abdul kalam",
+			quote: "Dream is something which doesnt let you sleep."
+    },
+  {
+                        author: "A.P.j Abdul kalam",
+			quote: "Dream is something which doesnt let you sleep."
+    },
 
 
 
