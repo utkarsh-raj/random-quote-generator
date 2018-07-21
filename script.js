@@ -27,10 +27,21 @@ var quotes = [
 			author: "Jai Dewani",
 			quote: "Hello this is a quote by Jai!"
 		},
-		{author: "Jai Dewani",
+  {
+			author: "Frank Zappa",
+			quote: "So many books, so little time."
+		},
+  	  {   author: "me",
+	      quote: "new things"
+	  },
+  {
+    author: "Anonymous",
+			quote: "Coz in the end we are all just dreamers in an endless universe."
+  },
+  {author: "Jai Dewani",
 	 	quote:"Ne to github"
 		}
-	]
+]
 
 button.addEventListener("click", function() {
 	newQuote = quotes[Math.floor(Math.random() * quotes.length)];
